@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+   
+   
+}
+.red{
+    color: red;
+}
+
+.blue{
+    color:rgb(130, 5, 219);
+}
+
+.sideline{
+    background-color:  rgb(109 40 217 );
+    height: 8px;
+    margin: 0 10px;
+    transform: rotate(45deg);
+    width: 8px;
+}
+.midline{
+    background-color:  rgb(109 40 217);
+    border-radius: 4px;
+    height: 4px;
+    position: relative;
+    width: 180px;
+}
+.innercircle{ 
+    animation: animate 3s  infinite alternate;
+    animation-timing-function: linear;
+
+    background-color: #212121;
+    border: 1px solid  rgb(109 40 217);
+    bottom: 0;
+    height: 10px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    transform: rotate(45deg);
+    width: 10px;
+}
+@keyframes animate{
+    from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }
+}
+.hove:hover{
+    .svg{
+        background-color: #262626;
+        transition: all ease-out .5s;
+    }
+}
+.btn:hover{
+    transform: translateY(-3px);
+    transition: all ease-in .5s;
+    .icon{
+        background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+        transition: all ease-in .5s;
+        color: rgb(109 40 217 / var(--tw-text-opacity));
+
+    }
+
+}
+.btn2:hover{
+   
+    .icon{
+       background-color:  rgb(109 40 217 / var(--tw-text-opacity));
+        transition: all ease-in .5s;
+
+    }
+
+}

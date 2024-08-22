@@ -1,0 +1,16 @@
+
+.contact{
+    padding-left: 8%;
+    padding-right: 8%;
+   
+}
+ .shad{
+    box-shadow:  0 0 9px 2px #141414
+ }
+ .shad:focus{
+    box-shadow:  0 0 9px 2px #792bf7;
+    outline: none; 
+    
+ }
+ 
+

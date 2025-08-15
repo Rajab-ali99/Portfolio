@@ -16,8 +16,8 @@ const Navbar = () => {
 
         <div className="logo h-[75px] bg-violet-700 "><img className=' bg-violet-700 relative top-1  h-full w-full object-cover  ' src='/logo1.png' alt="error"  /></div>
         
-        <div onClick={handleclick} className='block lg:hidden cursor-pointer bg-violet-700 '>
-          <GiHamburgerMenu className='bg-violet-700 ' />
+        <div onClick={handleclick} className='block lg:hidden text-2xl cursor-pointer bg-violet-700 '>
+          <GiHamburgerMenu className='bg-violet-700  ' />
         </div>
         <ul className='hidden lg:flex gap-10 text-white font-bold  bg-violet-700 items-center'>
 

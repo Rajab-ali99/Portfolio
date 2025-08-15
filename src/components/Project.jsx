@@ -111,7 +111,7 @@ const Projects = () => {
               <img className='h-full w-full object-scale-down' src="/proc5.png" alt="" />
             </div>
             <div>
-              <div className='py-1 text-xl  font-semibold bg-violet-200'>Personal portfolio site </div>
+              <div className='py-1 text-xl  font-semibold bg-violet-200'>React Landing Page </div>
               <div className='bg-violet-200 flex flex-wrap  gap-1 p-2'>
                 <div className='bg-gray-500 text-white  text-xs py-1 px-3 rounded-full'>HTML</div>
                 <div className='bg-gray-500 text-white  text-xs py-1 px-3 rounded-full'>CSS</div>

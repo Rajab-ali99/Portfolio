@@ -21,7 +21,7 @@ const Projects = () => {
         <a href='https://food-delivery-blond-eta.vercel.app' target='_blank'>
           <div className="card p-4 bg-violet-200 w-[310px] lg:w-[390px] rounded-md cursor-pointer">
             <div className='lg:h-[180px] h-[140px] w-[280px]  lg:w-[360px]'>
-              <img className='h-full w-full object-scale-down' src="../src/assets/proc1.png" alt="" />
+              <img className='h-full w-full object-scale-down' src="/proc1.png" alt="" />
             </div>
             <div>
               <div className='py-1 text-xl  font-semibold bg-violet-200'>Tomato - Food delivery  </div>
@@ -49,7 +49,7 @@ const Projects = () => {
          <a href='https://full-stack-ecommerce-app-frontend.onrender.com' target='_blank'>
           <div className="card p-4 bg-violet-200 w-[310px] lg:w-[390px] rounded-md cursor-pointer">
             <div className='lg:h-[180px] h-[140px] w-[280px]  lg:w-[360px]'>
-              <img className='h-full w-full object-scale-down' src="../src/assets/proc3.png" alt="" />
+              <img className='h-full w-full object-scale-down' src="/proc3.png" alt="" />
             </div>
             <div>
               <div className='py-1 text-xl  font-semibold bg-violet-200'>Cartify - Ecommerce Site </div>
@@ -79,7 +79,7 @@ const Projects = () => {
          <a href='https://mern-chat-app-frontend-xnjp.onrender.com' target='_blank'>
           <div className="card p-4 bg-violet-200 w-[310px] lg:w-[390px] rounded-md cursor-pointer">
             <div className='lg:h-[180px] h-[140px] w-[280px]  lg:w-[360px]'>
-              <img className='h-full w-full object-scale-down' src="../src/assets/proc2.png" alt="" />
+              <img className='h-full w-full object-scale-down' src="/proc2.png" alt="" />
             </div>
             <div>
               <div className='py-1 text-xl  font-semibold bg-violet-200'>Convo chat App </div>
@@ -108,7 +108,7 @@ const Projects = () => {
           <a href='https://landing-page-five-psi-55.vercel.app/' target='_blank'>
           <div className="card p-4 bg-violet-200 w-[310px] lg:w-[390px] rounded-md cursor-pointer">
             <div className='lg:h-[180px] h-[140px] w-[280px]  lg:w-[360px]'>
-              <img className='h-full w-full object-scale-down' src="../src/assets/proc5.png" alt="" />
+              <img className='h-full w-full object-scale-down' src="/proc5.png" alt="" />
             </div>
             <div>
               <div className='py-1 text-xl  font-semibold bg-violet-200'>Personal portfolio site </div>
@@ -132,10 +132,10 @@ const Projects = () => {
             </div>
           </div>
         </a>
-          <a href='' target='_blank'>
+          <a href='https://portfolio-e4q6.onrender.com/' target='_blank'>
           <div className="card p-4 bg-violet-200 w-[310px] lg:w-[390px] rounded-md cursor-pointer">
             <div className='lg:h-[180px] h-[140px] w-[280px]  lg:w-[360px]'>
-              <img className='h-full w-full object-scale-down' src="../src/assets/proc4.png" alt="" />
+              <img className='h-full w-full object-scale-down' src="/proc4.png" alt="" />
             </div>
             <div>
               <div className='py-1 text-xl  font-semibold bg-violet-200'>Personal portfolio site </div>

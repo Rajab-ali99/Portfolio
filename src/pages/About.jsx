@@ -21,7 +21,7 @@ const About = () => {
          viewport={{ once: true, amount: 0 }}
         
         className="left w-full lg:w-1/2 flex justify-center lg:justify-end items-center">
-          <img className='w-[75%] rounded-full ' src="../src/assets/image.jpeg" alt="error-loading" />
+          <img className='w-[75%] rounded-full ' src="/image.jpeg" alt="error-loading" />
         </motion.div>
         <motion.div
          variants={fadeIn("left", 0)}

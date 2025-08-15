@@ -21,7 +21,7 @@ const About = () => {
          viewport={{ once: true, amount: 0 }}
         
         className="left w-full lg:w-1/2 flex justify-center lg:justify-end items-center">
-          <img className='w-[75%] rounded-full ' src="./assets/raja.jpg" alt="error-loading" />
+          <img className='w-[75%] rounded-full ' src="../src/assets/image.jpeg" alt="error-loading" />
         </motion.div>
         <motion.div
          variants={fadeIn("left", 0)}
@@ -54,7 +54,7 @@ const About = () => {
               <span className='font-semibold text-sm lg:text-md text- text-white'> Faisalabad, Pakistan</span>
             </div>
           </div>
-          <a href="../public/Resume.pdf" target='_blank'><Button name={"DOWNLOAD RESUME "} icon={<FaDownload className='bg-violet-700 icon' />} /></a>
+          <a href="/Resume.pdf" target='_blank'><Button name={"DOWNLOAD RESUME "} icon={<FaDownload className='bg-violet-700 icon' />} /></a>
         </motion.div>
       </div>
       <div className="skills pb-7 lg:pb-20">

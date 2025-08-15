@@ -13,6 +13,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from '../varients';
 import Form from '../components/Form';
 import Footer from '../components/Footer';
+import Project from '../components/Project';
 const Home = () => {
 
   return (
@@ -25,7 +26,7 @@ const Home = () => {
             <motion.div
               variants={fadeIn("right", 0)}
               initial="hidden"
-              whileInView={"show"}
+              animate={"show"}
               viewport={{ once: true, amount: 0.7 }}
 
               className="left w-full px-5 lg:px-0 lg:w-[60%] py-3 lg:py-20 " >
@@ -33,7 +34,7 @@ const Home = () => {
               <h1 className='text-white font-semibold text-4xl my-1 px-1'>Rajab Ali</h1>
               <Typewrite />
               <p className='text-gray-400 font-bold'>As a Frontend React Developer, my dedication lies in crafting high-quality web applications that precisely meet the requirements of my clients. With 2 years of hands-on experience in web development, I specialize in utilizing React.js, Next.js, JavaScript, and Node.js Mongo Db , Express and Mongoss to develop scalable and robust web solutions. My focus on delivering excellence ensures that every project I undertake exceeds expectations and achieves optimal results</p>
-              <div className='my-4 flex items-center gap-10'> <a href="../public/Resume.pdf"><Button name={"DOWNLOAD RESUME"} icon={<FaDownload className='bg-violet-700 icon' />} /></a>
+              <div className='my-4 flex items-center gap-10'> <a href="/Resume.pdf"><Button name={"DOWNLOAD RESUME"} icon={<FaDownload className='bg-violet-700 icon' />} /></a>
                 <Link to="/About">
                   <Button2 name={"ABOUT ME"} icon={<HiAcademicCap className='bg-black transition-all ease-in duration-500 icon' />} />
                 </Link>
@@ -73,6 +74,9 @@ const Home = () => {
                 </p>
               </div>
             </div>
+          </div>
+          <div>
+            <Project/>
           </div>
           <div className='contact my-12'>
             <Form />

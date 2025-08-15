@@ -9,6 +9,7 @@ import { NavLink } from 'react-router-dom';
 import { IoBriefcase } from "react-icons/io5";
 import Button from './components/Button';
 import { FaDownload } from 'react-icons/fa'
+import { ToastContainer } from 'react-toastify';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
  
   return (
     <>
-
+    <ToastContainer />
       <main className='overflow-x-hidden overflow-y-hidden relative'>
         <aside>
         <div className='h-[100vh] w-56 hide absolute z-30 transition-all ease-out duration-1000 -right-[250px] top-0  '>
@@ -33,7 +34,7 @@ function App() {
           <NavLink onClick={handleclose} className={(e) => { return e.isActive ? "blue" : "" }} to="/About"><li className=' flex gap-3 items-center cursor-pointer'> <span><RiFolderWarningFill /></span>About</li></NavLink>
           <NavLink onClick={handleclose} className={(e) => { return e.isActive ? "blue" : "" }} to="/Contact"><li className=' flex gap-3 items-center cursor-pointer'><span><BiSolidContact /></span>Contact us</li></NavLink>
           <NavLink onClick={handleclose} className={(e) => { return e.isActive ? "blue" : "" }} to="/Projects"><li className=' flex gap-3 items-center cursor-pointer'><span><IoBriefcase /></span>Projects</li></NavLink>
-          <a href="../public/Resume.pdf"><li className='mx-10 my-4'><Button name={"Resume"} icon={<FaDownload className='bg-violet-700 icon w-full' />} /></li></a>
+          <a href="/Resume.pdf"><li className='mx-10 my-4'><Button name={"Resume"} icon={<FaDownload className='bg-violet-700 icon w-full' />} /></li></a>
         </ul>
         <div className='text-gray-400 text-sm font-semibold absolute bottom-5'>
           <span className='block'>&copy; Copyright 2024,Rajab Ali.</span>

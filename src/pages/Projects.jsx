@@ -1,13 +1,15 @@
 import React from 'react'
 
+import Project from '../components/Project'
+import Footer from '../components/Footer'
 const Projects = () => {
   return (
-    <div className='text-white font-bold text-xl items-center my-20 lg:text-3xl flex justify-center flex-col'>
-       Ths page is in working....
-       <span className=''>
-       We are working on it
-       </span>
+    <>
+    <div className='container mx-auto px-1 my-10'>
+      <Project/>
     </div>
+    <Footer />
+    </>
   )
 }
 

@@ -13,9 +13,9 @@ const Lines = (prop) => {
     className='flex flex-col items-center justify-center'>
       <span className='text-gray-400 '>{prop.first}</span>
       <div className='block mb-4 mt-0'>
-        <span className='text-4xl font-bold text-white'>{prop.second}</span>
+        <span className='lg:text-4xl text-3xl font-bold text-white'>{prop.second}</span>
         &nbsp;
-        <span className='text-4xl font-bold text-violet-700'>{prop.third}</span>
+        <span className='lg:text-4xl text-3xl font-bold text-violet-700'>{prop.third}</span>
       </div>
       <div className='flex items-center gap-0'>
 

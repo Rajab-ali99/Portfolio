@@ -23,17 +23,17 @@ function App() {
       <ToastContainer />
       <main className='overflow-x-hidden overflow-y-hidden relative'>
         <aside className=''>
-          <div className='h-[100dvh]  rounded-b-md w-56 hide fixed z-30 transition-all ease-out duration-1000 -right-[250px] top-0  '>
+          <div className='h-[100dvh]  rounded-b-md w-56 hide fixed z-30 transition-all ease-out duration-700 -right-[250px] top-0  '>
             <div className=' m-4'>
 
               <IoClose onClick={handleclose} className='text-white cursor-pointer text-2xl' />
             </div>
             <hr className='' />
             <ul className='text-white font-semibold flex flex-col gap-5 mx-3 my-5'>
-              <NavLink onClick={handleclose} className={(e) => { return e.isActive ? "blue" : "" }} to="/"><li className='  flex gap-3 items-center cursor-pointer'><span><IoHome /></span>Home</li></NavLink>
-              <NavLink onClick={handleclose} className={(e) => { return e.isActive ? "blue" : "" }} to="/About"><li className=' flex gap-3 items-center cursor-pointer'> <span><RiFolderWarningFill /></span>About</li></NavLink>
-              <NavLink onClick={handleclose} className={(e) => { return e.isActive ? "blue" : "" }} to="/Contact"><li className=' flex gap-3 items-center cursor-pointer'><span><BiSolidContact /></span>Contact us</li></NavLink>
-              <NavLink onClick={handleclose} className={(e) => { return e.isActive ? "blue" : "" }} to="/Projects"><li className=' flex gap-3 items-center cursor-pointer'><span><IoBriefcase /></span>Projects</li></NavLink>
+              <a onClick={handleclose} className={(e) => { return e.isActive ? "blue" : "" }} href="/"><li className='  flex gap-3 items-center cursor-pointer'><span><IoHome /></span>Home</li></a>
+              <a onClick={handleclose} className={(e) => { return e.isActive ? "blue" : "" }} href="/About"><li className=' flex gap-3 items-center cursor-pointer'> <span><RiFolderWarningFill /></span>About</li></a>
+              <a onClick={handleclose} className={(e) => { return e.isActive ? "blue" : "" }} href="/Contact"><li className=' flex gap-3 items-center cursor-pointer'><span><BiSolidContact /></span>Contact us</li></a>
+              <a onClick={handleclose} className={(e) => { return e.isActive ? "blue" : "" }} href="/Projects"><li className=' flex gap-3 items-center cursor-pointer'><span><IoBriefcase /></span>Projects</li></a>
               <a href="/Resume.pdf"><li className='mx-10 my-4'><Button name={"Resume"} icon={<FaDownload className='bg-violet-700 icon w-full' />} /></li></a>
             </ul>
             <div className='text-gray-400 text-sm font-semibold absolute bottom-5'>

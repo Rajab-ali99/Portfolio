@@ -21,10 +21,10 @@ const Navbar = () => {
         </div>
         <ul className='hidden lg:flex gap-10 text-white font-bold  bg-violet-700 items-center'>
 
-          <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/"><li className='bg-violet-700 hover:text-black transition-all ease-out duration-300'>Home</li></NavLink>
-          <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/About"><li  className=' bg-violet-700 hover:text-black transition-all ease-out duration-300'>About</li></NavLink>
-          <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/Contact"><li  className=' bg-violet-700 hover:text-black transition-all ease-out duration-300'>Contact us</li></NavLink>
-          <NavLink className={(e) => { return e.isActive ? "red" : "" }} to="/Projects"><li  className=' bg-violet-700 hover:text-black transition-all ease-out duration-300'>Projects</li></NavLink>
+          <a className={(e) => { return e.isActive ? "red" : "" }} to="/"><li className='bg-violet-700 hover:text-black transition-all cursor-pointer ease-out duration-300'>Home</li></a>
+          <a className={(e) => { return e.isActive ? "red" : "" }} to="/About"><li  className=' bg-violet-700 hover:text-black transition-all cursor-pointer ease-out duration-300'>About</li></a>
+          <a className={(e) => { return e.isActive ? "red" : "" }} to="/Contact"><li  className=' bg-violet-700 hover:text-black transition-all cursor-pointer ease-out duration-300'>Contact us</li></a>
+          <a className={(e) => { return e.isActive ? "red" : "" }} to="/Projects"><li  className=' bg-violet-700 hover:text-black transition-all cursor-pointer ease-out duration-300'>Projects</li></a>
           <a href="/Resume.pdf"><li className='bg-violet-700 text-black'><Button name={"Resume"} icon={<FaDownload className='bg-violet-700 icon' />} /></li></a>
 
 

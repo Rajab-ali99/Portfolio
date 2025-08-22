@@ -20,7 +20,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="list list-none flex justify-center gap-12 cursor-pointer pb-5 bg-[#313131]">
-                    <a href="https://www.fiverr.com/rajabali10005?public_mode=true" target='_blank'>
+                    <a href="https://www.fiverr.com/sellers/rajabali10005" target='_blank'>
                     <li className='text-gray-400 text-md lg:text-xl bg-[#313131] font-semibold'>Fiver</li>
                     </a>
                     <a href="https://www.upwork.com/freelancers/~01bf3c34879bc12ce2" target='_blank'>

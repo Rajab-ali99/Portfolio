@@ -5,6 +5,7 @@ import { FaDownload, } from 'react-icons/fa'
 import { HiAcademicCap } from "react-icons/hi";
 import Button from '../components/Button'
 import Button2 from '../components/Button2';
+import { Helmet } from "react-helmet-async";
 import animation from "../animations/animation.json"
 import Lottie from 'lottie-react';
 import { Link } from 'react-router-dom';
@@ -15,10 +16,53 @@ import Form from '../components/Form';
 import Footer from '../components/Footer';
 import Project from '../components/Project';
 const Home = () => {
+  const url = "https://portfolio-e4q6.onrender.com";
+  const title = "Rajab Ali – MERN Stack Developer | Full-Stack Web Developer";
+  const description = "Rajab Ali is a skilled MERN stack developer specializing in building high-performance web applications using MongoDB, Express.js, React, and Node.js. Explore projects in e-commerce, real-time chat, and custom web solutions. Hire a full-stack developer who delivers clean code, scalable architectures, and responsive designs.";
+
+  const personJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rajab Ali",
+    "jobTitle": "MERN Stack Developer",
+    "url": url,
+    "sameAs": [
+      "https://github.com/Rajab-ali99",
+      "https://www.linkedin.com/in/rajab-ali-636524375",
+      "https://www.upwork.com/freelancers/~01bf3c34879bc12ce2",
+      "https://www.fiverr.com/sellers/rajabali10005"
+    ]
+  };
 
   return (
     <>
-      <div className='home'>
+       <Helmet>
+
+      <title>{title}</title>
+        <meta name="description" content={description} />
+
+        {/* Canonical URL */}
+        <link rel="canonical" href={url} />
+
+        {/* Open Graph (Facebook/LinkedIn) */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={url} />
+        <meta property="og:image" content="https://portfolio-e4q6.onrender.com/img.png" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content="https://portfolio-e4q6.onrender.com/img.png" />
+
+        {/* Structured data */}
+        <script type="application/ld+json">
+          {JSON.stringify(personJsonLd)}
+        </script>
+       </Helmet>
+      
 
 
         <main >
@@ -33,7 +77,7 @@ const Home = () => {
               <span className='font-semibold  text-gray-400 text-xl'>Hi,This is</span>
               <h1 className='text-white font-semibold text-4xl my-1 px-1'>Rajab Ali</h1>
               <Typewrite />
-              <p className='text-gray-400 font-bold'>As a Frontend React Developer, my dedication lies in crafting high-quality web applications that precisely meet the requirements of my clients. With 2 years of hands-on experience in web development, I specialize in utilizing React.js, Next.js, JavaScript, and Node.js Mongo Db , Express and Mongoss to develop scalable and robust web solutions. My focus on delivering excellence ensures that every project I undertake exceeds expectations and achieves optimal results</p>
+              <p className='text-gray-400 font-bold'>As a Frontend React Developer, my dedication lies in crafting high-quality web applications that precisely meet the requirements of my clients. With 2 years of hands-on experience in web development, I specialize in utilizing React.js, Next.js, JavaScript, and Node.js Mongo Db , Express and Mongoose to develop scalable and robust web solutions. My focus on delivering excellence ensures that every project I undertake exceeds expectations and achieves optimal results</p>
               <div className='my-4 flex items-center gap-10'> <a href="/Resume.pdf"><Button name={"DOWNLOAD RESUME"} icon={<FaDownload className='bg-violet-700 icon' />} /></a>
                 <Link to="/About">
                   <Button2 name={"ABOUT ME"} icon={<HiAcademicCap className='bg-black transition-all ease-in duration-500 icon' />} />
@@ -64,7 +108,7 @@ const Home = () => {
               </div>
               <div className="box p-8 flex justify-center  flex-col bg-[#313131] cursor-pointer hover:shadow-md hover:shadow-violet-700 transition-all duration-300 rounded-xl">
                 <div className="logo flex justify-center bg-[#313131]"><svg className='text-violet-700 bg-[#313131]' stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="4em" width="4em" xmlns="http://www.w3.org/2000/svg"><path d="M13.4 2.096a10.08 10.08 0 0 0-8.937 3.331A10.054 10.054 0 0 0 2.096 13.4c.53 3.894 3.458 7.207 7.285 8.246a9.982 9.982 0 0 0 2.618.354l.142-.001a3.001 3.001 0 0 0 2.516-1.426 2.989 2.989 0 0 0 .153-2.879l-.199-.416a1.919 1.919 0 0 1 .094-1.912 2.004 2.004 0 0 1 2.576-.755l.412.197c.412.198.85.299 1.301.299A3.022 3.022 0 0 0 22 12.14a9.935 9.935 0 0 0-.353-2.76c-1.04-3.826-4.353-6.754-8.247-7.284zm5.158 10.909-.412-.197c-1.828-.878-4.07-.198-5.135 1.494-.738 1.176-.813 2.576-.204 3.842l.199.416a.983.983 0 0 1-.051.961.992.992 0 0 1-.844.479h-.112a8.061 8.061 0 0 1-2.095-.283c-3.063-.831-5.403-3.479-5.826-6.586-.321-2.355.352-4.623 1.893-6.389a8.002 8.002 0 0 1 7.16-2.664c3.107.423 5.755 2.764 6.586 5.826.198.73.293 1.474.282 2.207-.012.807-.845 1.183-1.441.894z"></path><circle cx="7.5" cy="14.5" r="1.5"></circle><circle cx="7.5" cy="10.5" r="1.5"></circle><circle cx="10.5" cy="7.5" r="1.5"></circle><circle cx="14.5" cy="7.5" r="1.5"></circle></svg></div>
-                <h2 className='text-white font-semibold text-2xl text-center bg-[#313131] py-3'>Web Design and Mantenance</h2>
+                <h2 className='text-white font-semibold text-2xl text-center bg-[#313131] py-3'>Web Design and Maintenance</h2>
                 <p className='text-gray-400  bg-[#313131]'>I also provide Fully Responsive Static Website Design with Next js , React js ,Node js , Mongo Db HTML, CSS, Bootstrap, Tailwind, Matrial Ui , Chakra</p>
               </div>
               <div className="box p-9 flex justify-center  flex-col bg-[#212121] cursor-pointer hover:shadow-md hover:shadow-violet-700 transition-all duration-300 rounded-xl">
@@ -81,10 +125,10 @@ const Home = () => {
           <div className='contact my-12'>
             <Form />
           </div>
-          <Footer />
         </main >
+          <Footer />
 
-      </div >
+      
     </>
   )
 }

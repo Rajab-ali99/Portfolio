@@ -152,17 +152,17 @@ const About = () => {
             <div className="left w-full lg:w-1/2 flex justify-center items-center">
               <Lottie className='w-4/5 mx-9' animationData={animation1} loop={true} />
             </div>
-            <div className="right w-full lg:w-1/2">
-              <div className='w-4/5  lg:mx-0 lg:w-1/2 bg-[#262626] p-5 rounded-xl cursor-pointer hover:shadow-md hover:shadow-violet-700 transition-all ease-out duration-500'>
-                <h1 className='font-semibold text-2xl bg-[#262626] flex justify-end  text-violet-700'>Software Engineering </h1>
-                <h1 className='font-semibold text-2xl bg-[#262626] flex justify-end text-violet-700'>Student</h1>
-                <span className='text-gray-400 flex bg-[#262626] justify-end font-bold'>2023-2027</span>
-                <span className='text-gray-400 font-medium text-sm bg-[#262626] text-center'>I am currently pursuing my Bachelor's degree in Software Engineering from the University of Agriculture Faisalabad, Pakistan (UAF) .</span>
+            <div className="right w-full  lg:w-1/2">
+              <div className='w-4/5  lg:mx-0 lg:w-1/2 bg-[#2b353f]  p-5 rounded-xl cursor-pointer hover:shadow-md hover:shadow-violet-700 transition-all ease-out duration-500'>
+                <h1 className='font-semibold text-2xl  flex justify-end  text-violet-700'>Software Engineering </h1>
+                <h1 className='font-semibold text-2xl  flex justify-end text-violet-700'>Student</h1>
+                <span className='text-gray-400 flex  justify-end font-bold'>2023-2027</span>
+                <span className='text-gray-400 font-medium text-sm  text-center'>I am currently pursuing my Bachelor's degree in Software Engineering from the University of Agriculture Faisalabad, Pakistan (UAF) .</span>
               </div>
-              <div className='lg:w-1/2 w-3/4 bg-[#262626] mt-6 relative left-20 mb-3 lg:mb-0 lg:left-48 p-5 rounded-xl cursor-pointer hover:shadow-md hover:shadow-violet-700 transition-all ease-out duration-500'>
-                <h1 className='font-semibold text-xl lg:text-2xl bg-[#262626] flex justify-end  text-violet-700'>Mern-Stack Developer </h1>
-                <span className='text-gray-400 flex bg-[#262626] justify-end font-bold'>2023</span>
-                <span className='text-gray-400 font-medium text-sm bg-[#262626] text-center'>I have successfully completed the <span className='font-bold'>Sigma Web Development course</span> from @codeWithHarry.</span>
+              <div className='lg:w-1/2 w-3/4  bg-[#2b353f] mt-6 relative left-20 mb-3 lg:mb-0 lg:left-48 p-5 rounded-xl cursor-pointer hover:shadow-md hover:shadow-violet-700 transition-all ease-out duration-500'>
+                <h1 className='font-semibold text-xl lg:text-2xl  flex justify-end  text-violet-700'>Mern-Stack Developer </h1>
+                <span className='text-gray-400 flex  justify-end font-bold'>2023</span>
+                <span className='text-gray-400 font-medium text-sm  text-center'>I have successfully completed the <span className='font-bold'>Sigma Web Development course</span> from @codeWithHarry.</span>
               </div>
             </div>
           </div>

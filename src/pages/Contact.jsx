@@ -3,7 +3,7 @@ import Form from '../components/Form'
 import Footer from '../components/Footer'
 import { Helmet } from 'react-helmet-async';
 const Contact = () => {
-   const url = "https://portfolio-e4q6.onrender.com/Contact";
+   const url = "https://portfolio-e4q6.onrender.com/contact";
   const title = "Contact Rajab Ali – MERN Stack Developer for Web Development Projects";
   const description = "Get in touch with Rajab Ali, a skilled MERN Stack Developer, to discuss full-stack web development projects, collaborations, or freelance opportunities.";
 

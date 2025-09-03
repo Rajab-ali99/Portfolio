@@ -4,13 +4,10 @@
 
 
 
-*{
-    
-    margin: 0;
-    padding: 0;
-    background-color: #212121;
-   
-   
+html, body,form, input, textarea{
+  margin: 0;
+  padding: 0;
+  background-color: #212121;
 }
 .red{
     color: red;

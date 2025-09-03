@@ -11,7 +11,7 @@ import { motion } from 'framer-motion'
 import { fadeIn } from '../varients'
 import { Helmet } from 'react-helmet-async'
 const About = () => {
-   const url = "https://portfolio-e4q6.onrender.com/About";
+   const url = "https://portfolio-e4q6.onrender.com/about";
   const title = "About Rajab Ali – MERN Stack Developer & Full-Stack Web Engineer";
   const description = "Learn about Rajab Ali, a passionate MERN Stack Developer skilled in React, Node.js, Express, and MongoDB, dedicated to building modern and scalable web applications.";
 

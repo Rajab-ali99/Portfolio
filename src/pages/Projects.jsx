@@ -4,7 +4,7 @@ import Project from '../components/Project'
 import Footer from '../components/Footer'
 import { Helmet } from 'react-helmet-async';
 const Projects = () => {
-   const url = "https://portfolio-e4q6.onrender.com/Projects";
+   const url = "https://portfolio-e4q6.onrender.com/projects";
   const title = "Projects by Rajab Ali – MERN Stack Web Applications & Full-Stack Solutions";
   const description = "Explore web development projects by Rajab Ali, a MERN Stack Developer creating responsive, fast, and user-friendly applications using React, Node.js, Express, and MongoDB.";
 

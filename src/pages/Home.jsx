@@ -22,7 +22,7 @@ const Home = () => {
     // Delay video appearance by 2.5 sec
     const timer = setTimeout(() => {
       setShowVideo(true);
-    }, 1000);
+    },);
 
     return () => clearTimeout(timer);
   }, []);

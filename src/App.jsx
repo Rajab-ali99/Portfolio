@@ -23,7 +23,7 @@ function App() {
       <ToastContainer />
       <main className='overflow-x-hidden overflow-y-hidden relative'>
         <aside className=''>
-          <div className='h-[100dvh]  rounded-b-md w-56 hide fixed z-30 transition-all ease-out duration-700 -right-[250px] top-0  '>
+          <div className='h-[100dvh] bg-[#2b353f]  rounded-b-md w-56 hide fixed z-40 transition-all ease-out duration-700 -right-[250px] top-0  '>
             <div className=' m-4'>
 
               <IoClose onClick={handleclose} className='text-white cursor-pointer text-2xl' />

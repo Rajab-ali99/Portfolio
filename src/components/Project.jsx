@@ -152,7 +152,35 @@ const Projects = () => {
                 <a className='bg-violet-200' href="https://github.com/Rajab-ali99/Portfolio" target="_blank" >
                   <Button name={"Github Repo"} icon={<HiAcademicCap className='bg-violet-700 icon' />} />
                 </a>
-                <a className='bg-violet-200' href='https://mern-chat-app-frontend-xnjp.onrender.com' target="_blank">
+                <a className='bg-violet-200' href='https://portfolio-e4q6.onrender.com/' target="_blank">
+                  <Button2 name={"Live Link"} icon={<GiDeliveryDrone className='bg-black transition-all ease-in duration-500 icon' />} />
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </a>
+          <a href='https://mariene.vercel.app/' target='_blank'>
+          <div className="card p-4 bg-violet-200 w-[310px] lg:w-[390px] rounded-md cursor-pointer">
+            <div className='lg:h-[180px] h-[140px] w-[280px]  lg:w-[360px]'>
+              <img className='h-full w-full object-scale-down' src="/proc6.png" alt="" />
+            </div>
+            <div>
+              <div className='py-1 text-xl  font-semibold bg-violet-200'>Alpha Group Business site </div>
+              <div className='bg-violet-200 flex flex-wrap  gap-1 p-2'>
+                <div className='bg-gray-500 text-white  text-xs py-1 px-3 rounded-full'>HTML</div>
+                <div className='bg-gray-500 text-white  text-xs py-1 px-3 rounded-full'>CSS</div>
+                <div className='bg-gray-500 text-white  text-xs py-1 px-3 rounded-full'>JavaScript</div>
+                <div className='bg-gray-500 text-white  text-xs py-1 px-3 rounded-full'>Tailwind Css</div>
+                <div className='bg-gray-500 text-white  text-xs py-1 px-3 rounded-full'>React + vite</div>
+                <div className='bg-gray-500 text-white  text-xs py-1 px-3 rounded-full'>Web3Forms</div>
+                <div className='bg-gray-500 text-white  text-xs py-1 px-3 rounded-full'>RESTful API</div>
+              </div>
+              <div className='bg-violet-200 items-center flex gap-3'>
+                <a className='bg-violet-200' href="https://github.com/Rajab-ali99/Alphagcc-Marine-Website.git" target="_blank" >
+                  <Button name={"Github Repo"} icon={<HiAcademicCap className='bg-violet-700 icon' />} />
+                </a>
+                <a className='bg-violet-200' href='https://mariene.vercel.app/' target="_blank">
                   <Button2 name={"Live Link"} icon={<GiDeliveryDrone className='bg-black transition-all ease-in duration-500 icon' />} />
                 </a>
 
